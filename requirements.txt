@@ -1,0 +1,4 @@
+pandas>=2.2.2
+joblib>=1.4.2
+rdkit>=2024.3.3
+scopy>=1.2.5
