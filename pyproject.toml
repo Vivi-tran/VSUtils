@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vsutils"
+version = "0.0.1"
+authors = [
+    {name="Ngoc-Vi Nguyen TRAN", email="nguyen-ngoc-vi.tran.6279@student.uu.se"}
+]
+description = "Utility for reaction modeling using graph grammar"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "joblib>=1.4.2",
+    "rdkit>=2024.3.3",
+    "scopy>=1.2.5",
+]
+
+[project.urls]
+homepage = "https://github.com/Vivi-tran/VSUtils"
+source = "https://github.com/Vivi-tran/VSUtils"
+issues = "https://github.com/Vivi-tran/VSUtils/issues"
