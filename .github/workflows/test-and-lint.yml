@@ -43,6 +43,7 @@ jobs:
       run: |
         conda activate vsutils-env
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        chmod u+x lint.sh
         ./lint.sh
       shell: bash -l {0}
 
