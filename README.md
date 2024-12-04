@@ -17,13 +17,17 @@ To set up `VSUtils` for use, follow these steps:
    pip install -r requirements.txt
    ```
 
+3. Install vsutils packages:
+   ```bash
+   pip install vsutils
+   ```
 ## Usage
 
 ### In a Jupyter Notebook
 For interactive use, such as in a Jupyter notebook, follow this example to utilize the `MCFilter`:
 
 ```python
-from vsutils.ADMET.filters import MCFilter
+from vsutils.ADMET.mc_filter import MCFilter
 
 # Initialize the MCFilter with default settings
 filter = MCFilter()
