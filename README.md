@@ -43,12 +43,12 @@ print(results)
 
 - **Processing a Single SMILES String:**
   ```bash
-  python main.py "CCO"
+  python -m vsutils "CCO"
   ```
 
 - **Processing SMILES from a CSV File:**
   ```bash
-  python main.py path/to/input.csv --smiles_column column_name --output path/to/output.csv
+  python -m vsutils path/to/input.csv --smiles_column column_name --output path/to/output.csv
   ```
 
 #### Command-Line Options
